@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<quiz>
+  <question>
+    <text>В каком году началась Вторая Мировая Война?</text>
+    <right_answer>1939</right_answer>
+    <wrong_answer>1941</wrong_answer>
+    <wrong_answer>1945</wrong_answer>
+    <wrong_answer>1918</wrong_answer>
+    <points>2</points>
+    <time>12</time>
+  </question>
+  <question>
+    <text>Сколько миллиметров в дециметре?</text>
+    <right_answer>100</right_answer>
+    <wrong_answer>1000</wrong_answer>
+    <wrong_answer>10</wrong_answer>
+    <wrong_answer>1</wrong_answer>
+    <points>1</points>
+    <time>8</time>
+  </question>
+  <question>
+    <text>Сколько лап у муравья?</text>
+    <right_answer>6</right_answer>
+    <wrong_answer>8</wrong_answer>
+    <wrong_answer>12</wrong_answer>
+    <wrong_answer>4</wrong_answer>
+    <points>3</points>
+    <time>10</time>
+  </question>
+  <question>
+    <text>Сколько дней требуется, чтобы выработалась привычка?</text>
+    <right_answer>21</right_answer>
+    <wrong_answer>365</wrong_answer>
+    <wrong_answer>7</wrong_answer>
+    <wrong_answer>3</wrong_answer>
+    <points>2</points>
+    <time>10</time>
+  </question>
+  <question>
+    <text>Сколько областей входят в состав РФ?</text>
+    <right_answer>46</right_answer>
+    <wrong_answer>22</wrong_answer>
+    <wrong_answer>85</wrong_answer>
+    <wrong_answer>21</wrong_answer>
+    <points>5</points>
+    <time>40</time>
+  </question>
+  <question>
+    <text>Сколько полных недель в году?</text>
+    <right_answer>52</right_answer>
+    <wrong_answer>12</wrong_answer>
+    <wrong_answer>54</wrong_answer>
+    <wrong_answer>33</wrong_answer>
+    <points>2</points>
+    <time>20</time>
+  </question>
+</quiz>
