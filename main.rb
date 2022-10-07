@@ -31,6 +31,8 @@ loop do
   puts
   puts quiz.play_round(user_input)
   puts
+
+  quiz.curr_question += 1
   abort quiz.result if quiz.end?
 end
 

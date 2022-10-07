@@ -1,4 +1,6 @@
 class Quiz
+  attr_accessor :curr_question
+
   def initialize(questions)
     @questions = questions
     @points = 0
@@ -14,13 +16,10 @@ class Quiz
     if current_question.right_answer == current_question.answers[user_answer - 1]
       @right_answers += 1
       @points += current_question.points
-      message = "Верный ответ!"
-    else
-      message = "Неправильно. Правильный ответ: #{current_question.right_answer}"
+      return "Верный ответ!"
     end
 
-    @curr_question += 1
-    message
+    "Неправильно. Правильный ответ: #{current_question.right_answer}"
   end
 
   def end?
