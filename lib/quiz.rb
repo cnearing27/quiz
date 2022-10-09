@@ -13,13 +13,13 @@ class Quiz
   end
 
   def play_round(user_answer)
-    if current_question.right_answer == current_question.answers[user_answer - 1]
-      @right_answers += 1
-      @points += current_question.points
-      return "Верный ответ!"
-    end
+    return "Неправильно. Правильный ответ: #{current_question.right_answer}" unless
+      current_question.right_answer == current_question.answers[user_answer - 1]
 
-    "Неправильно. Правильный ответ: #{current_question.right_answer}"
+    @right_answers += 1
+    @points += current_question.points
+
+    "Верный ответ!"
   end
 
   def end?
